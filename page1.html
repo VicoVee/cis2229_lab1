@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- This head tag holds metadata about your page. Think behind the scenes info! -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title tag changes the tab name of your page -->
     <title>About Us</title>
 
+    <!-- External Links -->
+    <!-- Think of these like mods or addons for your website! You can import
+    fonts and stylesheets here, or other libraries -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=DynaPuff:wght@400..700&family=Schoolbell&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
+    <!-- These links are external stylesheets, AKA CSS files that hold your styling of the elements  -->
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/page1.css">
 
@@ -23,6 +30,7 @@
         <h1 align=center>Lab #1 Example</h1>
     </header>
 
+    <!-- A navigation bar -->
     <nav>
         <a href="./page2.html">Home</a>
         <a href="./page1.html">About Us</a>
@@ -32,20 +40,23 @@
     <main>
         <h2>Spring 2025 TAs </h2>
 
+        <!-- This div is a section. I named this section "card", referencing the style I placed in this section to look like
+         a card. Each card holds information about a person -->
         <div class="card">
             <div id="card_one">
                 <h2>Victoria</h2>
                 <img src="images/victoria.jpg" alt="A photo of Victoria">
                 <div id="email_info">
                     <h3><a href=" mailto:tuq23078@temple.edu">Contact Me: tuq23078@temple.edu</a></h3>
-                    <p>Email to schedule a meeting
+                    <p>Location: SERC Lobby <br> For any other times, please email me to schedule a meeting
                     <ul>
                         <li>Mon: 1PM-2PM</li>
-                        <li>Tues-Thurs: 6PM-7PM</li>
                         <li>Fri: 11AM-12PM</li>
                     </ul>
                     </p>
                 </div>
+
+                <!-- A list of things about you. Edit this section here! -->
                 <ul>
                     <li>
                         <a href="images/texas_bread.jpg" target="_blank">
@@ -68,12 +79,19 @@
                         </a>
                     </li>
                 </ul>
-                <a target="_blank" href="https://youtu.be/SqiPY1kqs9A?si=UhSdFOOicY4Uzw8Q"><img
-                        src="./images/rubberducks.png" /></a>
-                <a target="_blank" href="https://youtu.be/uHGShqcAHlQ?si=S4emKSiV4zqkw3ub"><img
-                        src="./images/silentprincess.png" /></a>
+
+                <!-- Here is a set of links that are connected to images -->
+                <!-- A link is wrapped around an image tag, which allows the user to click on the image 
+                and open an external site -->
+                <a target="_blank" href="https://youtu.be/SqiPY1kqs9A?si=UhSdFOOicY4Uzw8Q">
+                    <img src="./images/rubberducks.png" />
+                </a>
+                <a target="_blank" href="https://youtu.be/uHGShqcAHlQ?si=S4emKSiV4zqkw3ub">
+                    <img src="./images/silentprincess.png" />
+                </a>
+
                 <div class="secret_hints">
-                    <p>Want to access the secret site? Here are two hints! </p>
+                    <p>Want to access the secret site? Here are two hints! All in lowercase </p>
                     <p> user: Where is Vic from? </p>
                     <p> pass: Take the first part of the flower's name in the second image (Hint: The flower is found in
                         Hyrule) 
@@ -81,7 +99,8 @@
                 </div>
 
             </div>
-        </div>
+        </div> 
+        <!-- First div "card" ends here -->
 
         <div class="card">
             <div id="card_one">
